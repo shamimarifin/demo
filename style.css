@@ -1,0 +1,120 @@
+/*
+Theme Name: braintech
+Theme URI: https://www.arifininfo.com
+Author: Shamim
+Author URI: https://www.arifininfo.com
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Version: 1.0.0
+Text Domain: braintech
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+
+.widget-area .widget-title {
+    background: #fff;
+    padding: 40px 30px 40px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+}
+
+ .widget-area .widget-title .title,
+ h3.title {
+    color: #101010 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+    font-weight: 600 !important;
+    position: relative !important;
+    z-index: 1 !important;
+    padding-bottom: 12px !important;
+    margin: 0 !important;
+}
+
+ .widget-area .widget-title .title:before {
+    content: "" !important;
+    position: absolute !important;
+    border: 0 !important;
+    width: 50px !important;
+    height: 2px !important;
+    background: #106eea !important;
+    z-index: 1 !important;
+    margin-left: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+  }
+
+
+
+  
+  h3.title {
+     color: #101010 !important;
+     font-size: 20px !important;
+     line-height: 26px !important;
+     font-weight: 600 !important;
+     position: relative !important;
+     z-index: 1 !important;
+     padding-bottom: 12px !important;
+     margin: 0 !important;
+ }
+
+
+ .widget-area h3.title:before{
+    content: "" !important;
+    position: absolute !important;
+    border: 0 !important;
+    width: 50px !important;
+    height: 2px !important;
+    background: #106eea !important;
+    z-index: 1 !important;
+    margin-left: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+  }
+
+
+
+  .widget-area .widget-title .cat-item {
+    margin-top: 13px;
+    padding-top: 13px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  .widget-area .widget-title .cat-item a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #101010;
+  }
+  
+  .widget-area .widget-title .cat-item a:hover {
+    color: #106eea;
+  }
+
+
+
+  /* Footer Area */
+  .footer-widget li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.widget{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .widget  ul li{
+    margin-bottom: 12px;
+  }
+
+  .widget ul li a{
+    font-size: 16px;
+    color: #454545;
+  }
+
+  .widget h3.title{
+    font-size: 22px !important;
+    line-height: 40px !important;
+    font-weight: 600 !important;
+    color: #101010 !important;
+    margin-bottom: 25px !important;
+  }
